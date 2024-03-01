@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: productcatalogue
-        image: surenderdops/pc
+        image: surenderdops/productcatalogue
         ports:
         - containerPort: 8020
         livenessProbe:
